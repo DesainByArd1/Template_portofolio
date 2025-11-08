@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Font Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <div class="logo">My<span>Portfolio</span></div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hello, I'm <span>Adriansyah</span></h1>
+        <h2>I'm a <span class="animate-text"></span></h2>
+        <p>
+          Passionate about creating modern web experiences with beautiful design
+          and clean code.
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Profile Image" />
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="profile.jpg" alt="About Image" />
+        </div>
+
+        <div class="about-content">
+          <h1>About <span>Me</span></h1>
+          <h2>I'm <span>Adriansyah</span>, a Frontend Developer</h2>
+          <p>
+            Saya adalah seorang pengembang web yang berfokus pada pembuatan
+            tampilan modern, responsif, dan interaktif. Saya suka memadukan
+            teknologi dan desain untuk menciptakan pengalaman pengguna yang
+            menyenangkan.
+          </p>
+          <p>
+            Saat ini saya terus mengasah kemampuan dalam
+            <strong>HTML, CSS, JavaScript, dan React</strong>
+            untuk membangun antarmuka web yang dinamis serta berorientasi pada
+            detail.
+          </p>
+          <a href="#projects" class="btn">Lihat Proyek Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects" id="projects">
+      <div class="section-title">
+        <h1>My <span>Projects</span></h1>
+        <p>Beberapa karya dan eksperimen saya dalam dunia web development.</p>
+      </div>
+
+      <div class="projects-container">
+        <!-- Card 1 -->
+        <div class="project-card">
+          <img src="profile.jpg" alt="Project 1" />
+          <div class="project-info">
+            <div>
+              <h3>Website Portfolio</h3>
+              <p>Website pribadi dengan animasi interaktif menggunakan GSAP.</p>
+            </div>
+            <a href="#" class="btn">Lihat Detail</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="project-card">
+          <img src="profile.jpg" alt="Project 2" />
+          <div class="project-info">
+            <div>
+              <h3>Online Store</h3>
+              <p>Toko online sederhana menggunakan Laravel dan Bootstrap.</p>
+            </div>
+            <a href="#" class="btn">Lihat Detail</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="project-card">
+          <img src="profile.jpg" alt="Project 3" />
+          <div class="project-info">
+            <div>
+              <h3>School Website</h3>
+              <p>Website informasi sekolah menggunakan PHP dan JavaScript.</p>
+            </div>
+            <a href="#" class="btn">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">
+          Have a project or just want to say hi? Let's get in touch!
+        </p>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h3 class="footer-logo">Adriansyah<span class="accent">.</span></h3>
+
+        <p class="footer-text">
+          Crafting modern web experiences with clean code and creative design.
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://github.com/"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p class="footer-copy">© 2025 Adriansyah. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ===== JS ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/hero.js"></script>
+  </body>
+</html>
